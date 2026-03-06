@@ -1,3 +1,4 @@
+# run: HARD DEBUG Monte Carlo v4.0 — 2026-03-06T19:00
 [green_agent]
 # Build What I Mean - Building Game Evaluator (green agent)
 image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
