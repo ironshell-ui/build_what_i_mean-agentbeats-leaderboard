@@ -7,7 +7,7 @@ env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL =
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
 name = "rita"
-env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}" }
+env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", FEATHERLESS_API_KEY = "${FEATHERLESS_API_KEY}" }
 
 [config]
 list1_path = "/home/agent/data/List1_FINAL_stimuli_list.csv"
