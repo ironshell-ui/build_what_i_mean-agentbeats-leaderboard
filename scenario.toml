@@ -1,7 +1,7 @@
 [green_agent]
 # Build What I Mean - Building Game Evaluator (green agent)
 image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
-env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${DEEPSEEK_API_KEY}", OPENAI_BASE_URL = "https://api.deepseek.com/v1", OPENAI_MODEL = "deepseek-chat", AGENT_QA_MODE = "openai" }
+env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_QA_MODE = "openai" }
 
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
