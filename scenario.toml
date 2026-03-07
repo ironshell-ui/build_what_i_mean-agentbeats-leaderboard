@@ -1,4 +1,4 @@
-# run: HARD DEBUG Monte Carlo v4.0 — 2026-03-06T19:00
+# run: BWIM v8 speed-optimized — 2026-03-07T00:45
 [green_agent]
 # Build What I Mean - Building Game Evaluator (green agent)
 image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
@@ -12,4 +12,4 @@ env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY
 [config]
 list1_path = "/home/agent/data/List1_FINAL_stimuli_list.csv"
 list2_path = "/home/agent/data/List2_FINAL_stimuli_list.csv"
-run_id = 7
+run_id = 8
