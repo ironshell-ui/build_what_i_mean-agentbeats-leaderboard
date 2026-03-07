@@ -1,16 +1,14 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
+env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_QA_MODE = "openai" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "ironshell-ui/ironshell"
+image = "ghcr.io/ironshell-ui/claudecowork-agent:master"
+name = "rita"
+env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}", GOOGLE_API_KEY = "${GOOGLE_API_KEY}", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", FEATHERLESS_API_KEY = "${FEATHERLESS_API_KEY}" }
 
 [config]
-# Add your assessment config here
+list1_path = "/home/agent/data/List1_FINAL_stimuli_list.csv"
+list2_path = "/home/agent/data/List2_FINAL_stimuli_list.csv"
+run_id = 10
