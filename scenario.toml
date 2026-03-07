@@ -12,4 +12,4 @@ env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY
 [config]
 list1_path = "/home/agent/data/List1_FINAL_stimuli_list.csv"
 list2_path = "/home/agent/data/List2_FINAL_stimuli_list.csv"
-run_id = 6
+run_id = 7
