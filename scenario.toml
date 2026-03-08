@@ -1,5 +1,5 @@
 [green_agent]
-image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
+agentbeats_id = "ltl-uva/build_what_i_mean"
 env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_QA_MODE = "openai" }
 
 [[participants]]
