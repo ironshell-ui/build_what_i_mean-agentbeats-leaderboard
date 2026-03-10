@@ -1,15 +1,14 @@
-# run: HARD DEBUG Monte Carlo v4.0 — 2026-03-06T19:00
+# fix: agent card URL 0.0.0.0 corrigido no Docker image — resubmissao 20260310
 [green_agent]
-# Build What I Mean - Building Game Evaluator (green agent)
-image = "ghcr.io/ltl-uva/build_what_i_mean:latest"
-env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_MODEL = "gpt-4o-mini", AGENT_QA_MODE = "openai" }
+agentbeats_id = "serjtroshin/build-what-i-mean"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_QA_MODE = "openai", AGENT_TRANSCRIPT_DIR = "logs/transcripts" }
 
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
 name = "rita"
-env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", FEATHERLESS_API_KEY = "${FEATHERLESS_API_KEY}" }
+env = { DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}", GOOGLE_API_KEY = "${GOOGLE_API_KEY}", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", FEATHERLESS_API_KEY = "${FEATHERLESS_API_KEY}" }
 
 [config]
 list1_path = "/home/agent/data/List1_FINAL_stimuli_list.csv"
 list2_path = "/home/agent/data/List2_FINAL_stimuli_list.csv"
-run_id = 6
+run_id = 13
