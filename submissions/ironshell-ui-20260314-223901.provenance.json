@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/ltl-uva/build_what_i_mean@sha256:802363fa2fafe52bcceae69d2164823846951484771b186acc2d1041e92bf09a",
+    "rita": "ghcr.io/ironshell-ui/claudecowork-agent@sha256:434abbbd4afba1887b1d041f6ad1f8f2a75813a7050841f9428e27060a574110",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-03-14T22:39:01Z",
+  "github_actions": {
+    "run_url": "https://github.com/ironshell-ui/build_what_i_mean-agentbeats-leaderboard/actions/runs/23097078729",
+    "run_logs_url": "https://api.github.com/repos/ironshell-ui/build_what_i_mean-agentbeats-leaderboard/actions/runs/23097078729/logs",
+    "ref": "refs/heads/submission-bwim-v2-post-fix",
+    "sha": "dbe1b5382e3d99f9d01e6102a293264d65a2ca3b",
+    "repository_url": "https://github.com/ironshell-ui/build_what_i_mean-agentbeats-leaderboard",
+    "workflow_ref": "ironshell-ui/build_what_i_mean-agentbeats-leaderboard/.github/workflows/run-scenario.yml@refs/heads/submission-bwim-v2-post-fix",
+    "workflow_sha": "dbe1b5382e3d99f9d01e6102a293264d65a2ca3b"
+  }
+}
