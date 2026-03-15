@@ -1,0 +1,12 @@
+{
+  "participants": {
+    "rita": "ironshell-ui/ironshell"
+  },
+  "results": [
+    {
+      "accuracy": 39.375,
+      "avg_questions_per_instruction": 0.0,
+      "overall_avg_score": -85.0
+    }
+  ]
+}

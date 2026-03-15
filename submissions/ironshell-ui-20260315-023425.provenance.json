@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/ltl-uva/build_what_i_mean@sha256:802363fa2fafe52bcceae69d2164823846951484771b186acc2d1041e92bf09a",
+    "rita": "ghcr.io/ironshell-ui/claudecowork-agent@sha256:139306ad475b6d333a9b88cdbea659490acedaf67157502c0d9193e7722fd2cc",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-03-15T02:34:25Z",
+  "github_actions": {
+    "run_url": "https://github.com/ironshell-ui/build_what_i_mean-agentbeats-leaderboard/actions/runs/23100467359",
+    "run_logs_url": "https://api.github.com/repos/ironshell-ui/build_what_i_mean-agentbeats-leaderboard/actions/runs/23100467359/logs",
+    "ref": "refs/heads/submission-bwim-v3-spatial-llm",
+    "sha": "196f216c0a4fbb8eaf04b4aea716fa1e45957131",
+    "repository_url": "https://github.com/ironshell-ui/build_what_i_mean-agentbeats-leaderboard",
+    "workflow_ref": "ironshell-ui/build_what_i_mean-agentbeats-leaderboard/.github/workflows/run-scenario.yml@refs/heads/submission-bwim-v3-spatial-llm",
+    "workflow_sha": "196f216c0a4fbb8eaf04b4aea716fa1e45957131"
+  }
+}
